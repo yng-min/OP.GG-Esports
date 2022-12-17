@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-def match_completed(self, *match_info):
+def match_completed(match_info: dict):
     """
     OP.GG Esports API에서 경기가 종료되었을 때 호출되는 함수
     """
