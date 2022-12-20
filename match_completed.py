@@ -2,13 +2,51 @@
 
 def match_completed(match_info: dict):
     """
-    OP.GG Esports API에서 경기가 종료되었을 때 호출되는 함수
+    OP.GG Esports API에서 경기가 종료되었을 때 데이터 처리를 위해 호출되는 함수
+
+    - Input:
+    {
+        "matchId": "19972",
+        "type": "complete",
+        "set": 2,
+        "title": "Semifinal 2: GEN vs DRX",
+        "winner": "DRX",
+        "winnerName": "DRX",
+        "dpm": "GEN Ruler",
+        "dtpm": "DRX Kingen",
+        "gold": "DRX Deft",
+        "cs": "DRX Zeka",
+        "firstBlood": "GEN Ruler",
+        "mvp": "DRX Zeka",
+        "league": "Worlds"
+    }
+
+    - Output:
+    {
+        "error": False,
+        "code": "SUCCESS",
+        "team_1": "GEN",
+        "team_2": "DRX",
+        "match_id": "19972",
+        "match_type": "complete",
+        "match_set": "2",
+        "match_title": "Semifinal 2: GEN vs DRX",
+        "match_winner_name": "DRX",
+        "match_winner_shortName": "DRX",
+        "dpm": "GEN Ruler",
+        "dtpm": "DRX Kingen",
+        "gold": "DRX Deft",
+        "cs": "DRX Zeka",
+        "firstBlood": "GEN Ruler",
+        "mvp": "DRX Zeka",
+        "match_league": "Worlds"
+    }
     """
     try:
         match = match_info
 
         if match['type'] == "":
-            return { "error": True, "code": "NODATA", "message": "호출된 함수에 대입할 데이터가 없습니다." }
+            return { "error": True, "code": "NOINPUT", "message": "호출된 함수에 대입할 데이터가 없습니다." }
         elif match['type'] != "complete":
             return { "error": True, "code": "NOCOMPLETE", "message": "호출된 함수에 대입된 데이터가 경기 종료 데이터가 아닙니다." }
         if match['type'] == "complete":
