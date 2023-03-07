@@ -32,24 +32,16 @@ query {
 
         result = requests.post(url, json={"query": query}, headers=headers)
 
-        # if 200 <= result.status_code < 300:
-        #     print(f"Webhook sent {result.status_code} ${result.json()}")
-        # else:
-        #     print(f"Not sent with {result.status_code}, response:\n{result}")
-
         if 200 <= result.status_code < 300:
             matches = result.json()['data']['upcomingMatchesByDate']
 
             if matches == []:
-                return { "error": False, "code": "NODATA", "message": "경기 일정 데이터가 없습니다." }
-            
+                return { "error": False, "code": "SUCCESS", "data": "경기 일정 데이터가 없습니다.", "data": None }
 
-            # return { "error": False, "code": "SUCCESS", "team_1": msg_team_1, "team_2": msg_team_2, "match_id": msg_match_id, "match_type": msg_match_type, "match_set": msg_match_set, "match_title": msg_match_title, "match_winner_name": msg_winner_name, "match_winner_shortName": msg_winner_shortName, "dpm": msg_dpm, "dtpm": msg_dtpm, "gold": msg_gold, "cs": msg_cs, "firstBlood": msg_firstBlood, "mvp": msg_mvp, "match_league": msg_league }
-
-            return matches
+            return { "error": False, "code": "SUCCESS", "message": "성공적으로 데이터를 불러왔습니다.", "data": matches }
 
         else:
-            return { "error": True, "code": "NOTSENT", "message": f"서버와의 통신 과정 중 오류가 발생함.\nStatus Code: {result.status_code}\nResponse: {result}" }
+            return { "error": True, "code": "NOTSENT", "message": f"서버와의 통신 과정 중 오류가 발생함.\nStatus Code: {result.status_code}\nResponse: {result}", "data": None }
 
     except Exception as error:
-        return { "error": True, "code": "UNKNOWN", "message": f"알 수 없는 에러 발생.\n{error}" }
+        return { "error": True, "code": "UNKNOWN", "message": f"알 수 없는 에러 발생.\n{error}", "data": None }
