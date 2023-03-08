@@ -24,7 +24,7 @@ def update_schedule(match_info: str): # null(js) -> None(py) 문법 변환을 �
             "team_2": "TBD",
             "match_id": "20014",
             "match_type": "reschedule",
-            "match_title": "Tiebreaker: LLL vs TBD",
+            "match_title": "LLL vs TBD",
             "match_league": "Worlds",
             "match_scheduledAt": "2022-10-03T07:00:00.000Z",
             "match_originalScheduledAt": "2022-10-03T06:00:00.000Z"
@@ -33,14 +33,14 @@ def update_schedule(match_info: str): # null(js) -> None(py) 문법 변환을 �
     """
     try:
         # null(js) -> None(py) 문법 변환 작업 *데이터 자체는 OP.GG Esports API에서 직접 다이렉트로 보내주기 때문에 eval문 보안 이슈 X*
-        match_info = str(match_info).replace("null", "None")
-        match = eval(match_info)
+        match = str(match_info).replace("null", "None")
+        match = eval(match)
 
-        if match['type'] == "":
+        if match == None or match == "" or match == {} or match == []:
             return { "error": True, "code": "NOINPUT", "message": "호출된 함수에 대입할 데이터가 없습니다.", "data": None }
         elif match['type'] != "reschedule":
             return { "error": True, "code": "NOCOMPLETE", "message": "호출된 함수에 대입된 데이터가 일정 변경 데이터가 아닙니다.", "data": None }
-        if match['type'] == "reschedule":
+        elif match['type'] == "reschedule":
 
             try: match_name = match['title'].split(': ')[1]
             except: match_name = match['title']

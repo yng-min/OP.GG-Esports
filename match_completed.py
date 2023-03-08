@@ -32,7 +32,7 @@ def match_completed(match_info: dict):
             "match_id": "19972",
             "match_type": "complete",
             "match_set": "2",
-            "match_title": "Semifinal 2: GEN vs DRX",
+            "match_title": "GEN vs DRX (Worlds)",
             "match_winner_name": "DRX",
             "match_winner_shortName": "DRX",
             "match_league": "Worlds",
@@ -48,11 +48,11 @@ def match_completed(match_info: dict):
     try:
         match = match_info
 
-        if match['type'] == "":
+        if match == None or match == "" or match == {} or match == []:
             return { "error": True, "code": "NOINPUT", "message": "호출된 함수에 대입할 데이터가 없습니다.", "data": None }
         elif match['type'] != "complete":
             return { "error": True, "code": "NOCOMPLETE", "message": "호출된 함수에 대입된 데이터가 경기 종료 데이터가 아닙니다.", "data": None }
-        if match['type'] == "complete":
+        elif match['type'] == "complete":
 
             if match['dpm'] == "": match['dpm'] = "-"
             if match['dtpm'] == "": match['dtpm'] = "-"
