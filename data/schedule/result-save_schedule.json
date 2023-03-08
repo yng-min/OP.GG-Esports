@@ -1,0 +1,607 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": [
+        {
+            "id": "21000",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "6K vs EST",
+            "originalScheduledAt": "2023-03-08T22:00:00.000Z",
+            "scheduledAt": "2023-03-08T22:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21017",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "MS7 vs AZE",
+            "originalScheduledAt": "2023-03-09T00:00:00.000Z",
+            "scheduledAt": "2023-03-09T00:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20721",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "LSB vs GEN",
+            "originalScheduledAt": "2023-03-09T08:00:00.000Z",
+            "scheduledAt": "2023-03-09T08:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21188",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "DEWI vs JT",
+            "originalScheduledAt": "2023-03-09T07:00:00.000Z",
+            "scheduledAt": "2023-03-09T09:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20882",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "EDG vs LGD",
+            "originalScheduledAt": "2023-03-09T09:00:00.000Z",
+            "scheduledAt": "2023-03-09T09:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21322",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "FL vs SGB",
+            "originalScheduledAt": "2023-03-09T10:00:00.000Z",
+            "scheduledAt": "2023-03-09T10:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21187",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "FNK vs CFO",
+            "originalScheduledAt": "2023-03-09T08:00:00.000Z",
+            "scheduledAt": "2023-03-09T10:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20719",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "T1 vs DRX",
+            "originalScheduledAt": "2023-03-09T10:30:00.000Z",
+            "scheduledAt": "2023-03-09T10:30:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21186",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "SWP vs BYG",
+            "originalScheduledAt": "2023-03-09T09:00:00.000Z",
+            "scheduledAt": "2023-03-09T11:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20883",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "JDG vs TT",
+            "originalScheduledAt": "2023-03-09T11:00:00.000Z",
+            "scheduledAt": "2023-03-09T11:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21185",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "HPS vs IMP",
+            "originalScheduledAt": "2023-03-09T10:00:00.000Z",
+            "scheduledAt": "2023-03-09T12:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21320",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "TW vs CES",
+            "originalScheduledAt": "2023-03-09T13:00:00.000Z",
+            "scheduledAt": "2023-03-09T13:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21184",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "PSG vs DCG",
+            "originalScheduledAt": "2023-03-09T11:00:00.000Z",
+            "scheduledAt": "2023-03-09T13:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21080",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "SUP vs FUT",
+            "originalScheduledAt": "2023-03-02T16:00:00.000Z",
+            "scheduledAt": "2023-03-09T16:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21077",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "5R vs DP",
+            "originalScheduledAt": "2023-03-02T17:00:00.000Z",
+            "scheduledAt": "2023-03-09T17:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21076",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "IW vs GAL",
+            "originalScheduledAt": "2023-03-02T18:00:00.000Z",
+            "scheduledAt": "2023-03-09T18:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21072",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "BJK vs NSR",
+            "originalScheduledAt": "2023-03-02T19:00:00.000Z",
+            "scheduledAt": "2023-03-09T19:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20639",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "FLY vs TL",
+            "originalScheduledAt": "2023-03-09T20:00:00.000Z",
+            "scheduledAt": "2023-03-09T22:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20641",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "GG vs 100",
+            "originalScheduledAt": "2023-03-09T21:00:00.000Z",
+            "scheduledAt": "2023-03-09T23:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20637",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "EG vs C9",
+            "originalScheduledAt": "2023-03-09T22:00:00.000Z",
+            "scheduledAt": "2023-03-10T00:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20636",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "TSM vs IMT",
+            "originalScheduledAt": "2023-03-09T23:00:00.000Z",
+            "scheduledAt": "2023-03-10T01:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20634",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "CLG vs DIG",
+            "originalScheduledAt": "2023-03-10T00:00:00.000Z",
+            "scheduledAt": "2023-03-10T02:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20718",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "NS vs DK",
+            "originalScheduledAt": "2023-03-10T08:00:00.000Z",
+            "scheduledAt": "2023-03-10T08:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21153",
+            "tournamentId": "1039",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LJL"
+                    }
+                }
+            },
+            "name": "SG vs BC",
+            "originalScheduledAt": "2023-03-10T08:00:00.000Z",
+            "scheduledAt": "2023-03-10T08:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20881",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "NIP vs BLG",
+            "originalScheduledAt": "2023-03-10T09:00:00.000Z",
+            "scheduledAt": "2023-03-10T09:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21183",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "SWP vs HPS",
+            "originalScheduledAt": "2023-03-10T07:00:00.000Z",
+            "scheduledAt": "2023-03-10T09:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21182",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "CFO vs JT",
+            "originalScheduledAt": "2023-03-10T08:00:00.000Z",
+            "scheduledAt": "2023-03-10T10:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21317",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "MGN vs SE",
+            "originalScheduledAt": "2023-03-10T10:00:00.000Z",
+            "scheduledAt": "2023-03-10T10:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20716",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "KT vs BRO",
+            "originalScheduledAt": "2023-03-10T10:30:00.000Z",
+            "scheduledAt": "2023-03-10T10:30:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21149",
+            "tournamentId": "1039",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LJL"
+                    }
+                }
+            },
+            "name": "V3 vs DFM",
+            "originalScheduledAt": "2023-03-10T11:00:00.000Z",
+            "scheduledAt": "2023-03-10T11:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21181",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "PSG vs FNK",
+            "originalScheduledAt": "2023-03-10T09:00:00.000Z",
+            "scheduledAt": "2023-03-10T11:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20880",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "FPX vs OMG",
+            "originalScheduledAt": "2023-03-10T11:00:00.000Z",
+            "scheduledAt": "2023-03-10T11:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21180",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "BYG vs IMP",
+            "originalScheduledAt": "2023-03-10T10:00:00.000Z",
+            "scheduledAt": "2023-03-10T12:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21315",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "TS vs GAM",
+            "originalScheduledAt": "2023-03-10T13:00:00.000Z",
+            "scheduledAt": "2023-03-10T13:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21179",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "DCG vs DEWI",
+            "originalScheduledAt": "2023-03-10T11:00:00.000Z",
+            "scheduledAt": "2023-03-10T13:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21078",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "FUT vs NSR",
+            "originalScheduledAt": "2023-02-23T18:00:00.000Z",
+            "scheduledAt": "2023-03-10T16:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21073",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "GAL vs BJK",
+            "originalScheduledAt": "2023-03-03T17:00:00.000Z",
+            "scheduledAt": "2023-03-10T17:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21071",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "IW vs 5R",
+            "originalScheduledAt": "2023-03-03T18:00:00.000Z",
+            "scheduledAt": "2023-03-10T18:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "21069",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "SUP vs DP",
+            "originalScheduledAt": "2023-03-03T19:00:00.000Z",
+            "scheduledAt": "2023-03-10T19:00:00.000Z",
+            "status": "not_started"
+        },
+        {
+            "id": "20624",
+            "tournamentId": "1017",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCS"
+                    }
+                }
+            },
+            "name": "TL vs C9",
+            "originalScheduledAt": "2023-03-10T20:00:00.000Z",
+            "scheduledAt": "2023-03-10T22:00:00.000Z",
+            "status": "not_started"
+        }
+    ]
+}

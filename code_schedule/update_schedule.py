@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 
 def update_schedule(match_info: str): # null(js) -> None(py) 문법 변환을 위해 dict 대신 str로 받음
     """

@@ -1,0 +1,22 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "team_1": "GEN",
+        "team_2": "DRX",
+        "match_id": "19972",
+        "match_type": "complete",
+        "match_set": 2,
+        "match_title": "GEN vs DRX (Worlds)",
+        "match_winner_name": "DRX",
+        "match_winner_shortName": "DRX",
+        "match_league": "Worlds",
+        "dpm": "GEN Ruler",
+        "dtpm": "DRX Kingen",
+        "gold": "DRX Deft",
+        "cs": "DRX Zeka",
+        "firstBlood": "GEN Ruler",
+        "mvp": "DRX Zeka"
+    }
+}

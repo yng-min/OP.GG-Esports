@@ -1,0 +1,417 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": [
+        {
+            "position": 1,
+            "previously": 1,
+            "setWin": 27,
+            "setLose": 7,
+            "team": {
+                "id": "385",
+                "name": "T1",
+                "acronym": "T1",
+                "nationality": "KR",
+                "foundedAt": "2014-02-15",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/385_1672191948431.png",
+                "youtube": "https://youtube.com/sktt1",
+                "twitter": "https://twitter.com/T1LoL",
+                "instagram": "https://www.instagram.com/t1lol",
+                "facebook": "https://facebook.com/T1LoL",
+                "website": "https://t1.gg"
+            },
+            "recentMatches": [
+                {
+                    "id": "20745",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20768",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20773",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20779",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20792",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "previously": 2,
+            "setWin": 22,
+            "setLose": 9,
+            "team": {
+                "id": "1681",
+                "name": "Dplus KIA",
+                "acronym": "DK",
+                "nationality": "KR",
+                "foundedAt": "2017-05-28",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1681_1672192040346.png",
+                "youtube": "https://www.youtube.com/channel/UCepHesz_5Lwr7qRaqjB-p1A",
+                "twitter": "https://twitter.com/DplusKIA",
+                "instagram": "https://www.instagram.com/dwgkia.lol",
+                "facebook": "https://www.facebook.com/dpluskia.lol",
+                "website": "https://dpluskia.gg/"
+            },
+            "recentMatches": [
+                {
+                    "id": "20743",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20762",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20774",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20789",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20791",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 3,
+            "previously": 3,
+            "setWin": 23,
+            "setLose": 11,
+            "team": {
+                "id": "416",
+                "name": "Gen.G",
+                "acronym": "GEN",
+                "nationality": "KR",
+                "foundedAt": "2017-11-30",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/416_1672191707257.png",
+                "youtube": "https://youtube.com/gengesports",
+                "twitter": "https://twitter.com/GenG",
+                "instagram": "https://www.instagram.com/gengesports",
+                "facebook": "https://www.facebook.com/GenGLOL",
+                "website": "https://geng.gg"
+            },
+            "recentMatches": [
+                {
+                    "id": "20740",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20749",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20777",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20793",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20792",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 4,
+            "previously": 4,
+            "setWin": 22,
+            "setLose": 15,
+            "team": {
+                "id": "384",
+                "name": "KT Rolster",
+                "acronym": "KT",
+                "nationality": "KR",
+                "foundedAt": "2014-12-02",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/384_1672190868791.png",
+                "youtube": "https://www.youtube.com/channel/UC8FErYSi74YwGUAoTpjvgzQ",
+                "twitter": "https://twitter.com/ktRolster_tw",
+                "instagram": "https://www.instagram.com/ktrolstagram",
+                "facebook": "https://www.facebook.com/ktesports",
+                "website": "http://kt-sports.co.kr"
+            },
+            "recentMatches": [
+                {
+                    "id": "20730",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20741",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20749",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20773",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20789",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 5,
+            "previously": 5,
+            "setWin": 21,
+            "setLose": 16,
+            "team": {
+                "id": "591",
+                "name": "Hanwha Life Esports",
+                "acronym": "HLE",
+                "nationality": "KR",
+                "foundedAt": "2018-04-16",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/591_1672191709194.png",
+                "youtube": "https://www.youtube.com/channel/UCrfB1-zWijAYkgfZW7Ehc8Q",
+                "twitter": "https://twitter.com/HLEofficial",
+                "instagram": "https://www.instagram.com/hle.official",
+                "facebook": "https://www.facebook.com/HLE.lol",
+                "website": "https://hle.kr/en"
+            },
+            "recentMatches": [
+                {
+                    "id": "20730",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20743",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20750",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20771",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20780",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 6,
+            "previously": 6,
+            "setWin": 19,
+            "setLose": 18,
+            "team": {
+                "id": "662",
+                "name": "Liiv SANDBOX",
+                "acronym": "LSB",
+                "nationality": "KR",
+                "foundedAt": "2018-12-18",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/662_1672191844822.png",
+                "youtube": "https://www.youtube.com/channel/UCxedTJNaGRHiq6YfNtQVCNA",
+                "twitter": "https://twitter.com/LiivSANDBOX",
+                "instagram": "https://www.instagram.com/liivsandbox",
+                "facebook": "https://www.facebook.com/LiivSANDBOX",
+                "website": "https://www.sandbox.co.kr/esports"
+            },
+            "recentMatches": [
+                {
+                    "id": "20741",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20747",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20775",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20779",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20791",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 7,
+            "previously": 7,
+            "setWin": 12,
+            "setLose": 23,
+            "team": {
+                "id": "670",
+                "name": "BRION",
+                "acronym": "BRO",
+                "nationality": "KR",
+                "foundedAt": "2018-11-19",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/670_1673590820109.png",
+                "youtube": "https://www.youtube.com/channel/UCYQO6n0KZmwfwzWtm4_nAPA",
+                "twitter": "https://twitter.com/Brionesports",
+                "instagram": "https://www.instagram.com/brionesports",
+                "facebook": "https://facebook.com/officialbrionesports",
+                "website": "https://brionesports.gg"
+            },
+            "recentMatches": [
+                {
+                    "id": "20740",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20745",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20770",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20780",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20795",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 8,
+            "previously": 8,
+            "setWin": 13,
+            "setLose": 24,
+            "team": {
+                "id": "700",
+                "name": "Kwangdong Freecs",
+                "acronym": "KDF",
+                "nationality": "KR",
+                "foundedAt": "2015-12-29",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_kdf.png",
+                "youtube": "https://www.youtube.com/channel/UCLjQgCF-lhvn5kTj-_nGjPg",
+                "twitter": "https://twitter.com/KDF_LoL",
+                "instagram": "https://www.instagram.com/kdf_lol",
+                "facebook": "https://www.facebook.com/kdflol",
+                "website": "http://freecs.gg/main/main.html"
+            },
+            "recentMatches": [
+                {
+                    "id": "20738",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20747",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20768",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20771",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20774",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 9,
+            "previously": 9,
+            "setWin": 10,
+            "setLose": 24,
+            "team": {
+                "id": "590",
+                "name": "DRX",
+                "acronym": "DRX",
+                "nationality": "KR",
+                "foundedAt": "2018-01-07",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/590_1673590820109.png",
+                "youtube": "https://youtube.com/drxglobal",
+                "twitter": "https://twitter.com/DRXGlobal",
+                "instagram": "https://www.instagram.com/drxglobal",
+                "facebook": "https://www.facebook.com/DRXGlobal",
+                "website": "https://drx.gg"
+            },
+            "recentMatches": [
+                {
+                    "id": "20744",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20762",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20770",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20777",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20798",
+                    "tournamentId": "1018"
+                }
+            ]
+        },
+        {
+            "position": 10,
+            "previously": 10,
+            "setWin": 7,
+            "setLose": 29,
+            "team": {
+                "id": "669",
+                "name": "Nongshim Red Force",
+                "acronym": "NS",
+                "nationality": "KR",
+                "foundedAt": "2019-05-29",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/669_1672192303797.png",
+                "youtube": "https://www.youtube.com/channel/UC4PoHC-R9EeJYTuUv3ndmJw",
+                "twitter": "https://twitter.com/NS_RedForce",
+                "instagram": "https://www.instagram.com/ns_redforce/",
+                "facebook": "https://www.facebook.com/NSREDFORCE",
+                "website": "https://www.NS-esports.com"
+            },
+            "recentMatches": [
+                {
+                    "id": "20738",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20744",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20750",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20775",
+                    "tournamentId": "1018"
+                },
+                {
+                    "id": "20793",
+                    "tournamentId": "1018"
+                }
+            ]
+        }
+    ]
+}

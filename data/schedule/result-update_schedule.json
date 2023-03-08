@@ -1,0 +1,15 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "team_1": "LLL",
+        "team_2": "TBD",
+        "match_id": "20014",
+        "match_type": "reschedule",
+        "match_title": "LLL vs TBD (Worlds)",
+        "match_league": "Worlds",
+        "match_scheduledAt": null,
+        "match_originalScheduledAt": "2022-10-03T06:00:00.000Z"
+    }
+}
