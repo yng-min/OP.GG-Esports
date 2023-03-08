@@ -4,7 +4,7 @@ import requests
 
 url = "https://esports.op.gg/matches/graphql" # OP.GG Esports API URL
 
-def league_standings(tournamentId: str):
+def league_standing(tournamentId: str):
     """
     OP.GG Esports에서 리그 순위 데이터 처리를 위해 호출되는 함수
     """
