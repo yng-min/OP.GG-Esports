@@ -5,24 +5,38 @@ import datetime
 url = "https://qwer.gg/matches/graphql"
 query = """
 query {
-    standings(tournamentId: "1018") {
-        team{id}
-        team{name}
-        team{acronym}
-        team{nationality}
-        team{foundedAt}
-        team{imageUrl}
-        position
-        previously
-        setWin
-        setLose
-        team{youtube}
-        team{twitter}
-        team{instagram}
-        team{facebook}
-        team{website}
-        recentMatches{id}
-        recentMatches{tournamentId}
+    playersByTournamentAndTeam(tournamentId: "1018", teamId: "385") {
+        player{id}
+        player{nickName}
+        player{firstName}
+        player{lastName}
+        player{position}
+        player{nationality}
+        player{imageUrl}
+        player{birthday}
+        player{stream}
+        player{youtube}
+        player{twitter}
+        player{instagram}
+        player{facebook}
+        player{discord}
+        playerStat{games}
+        playerStat{winRate}
+        playerStat{wins}
+        playerStat{loses}
+        playerStat{kills}
+        playerStat{deaths}
+        playerStat{assists}
+        playerStat{kda}
+        playerStat{dpm}
+        playerStat{dtpm}
+        playerStat{gpm}
+        playerStat{cspm}
+        playerStat{dpgr}
+        playerStat{firstBlood}
+        playerStat{firstTower}
+        playerStat{wardsPlaced}
+        playerStat{wardsKilled}
     }
 }
 """
@@ -34,7 +48,7 @@ result = requests.post(url, json={"query": query}, headers=headers)
 
 if 200 <= result.status_code < 300:
 
-    matches = result.json()['data']['standings']
+    matches = result.json()['data']['playersByTournamentAndTeam']
     print(matches)
     # print(f"Webhook sent {result.status_code} ${result.json()}")
 else:
