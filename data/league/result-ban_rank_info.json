@@ -1,0 +1,79 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "bans": [
+            {
+                "championId": "22",
+                "count": 148,
+                "currently": 1,
+                "previously": 1,
+                "rate": 0.08222222222222222
+            },
+            {
+                "championId": "51",
+                "count": 137,
+                "currently": 2,
+                "previously": 2,
+                "rate": 0.07611111111111112
+            },
+            {
+                "championId": "60",
+                "count": 113,
+                "currently": 3,
+                "previously": 3,
+                "rate": 0.06277777777777778
+            },
+            {
+                "championId": "57",
+                "count": 102,
+                "currently": 4,
+                "previously": 4,
+                "rate": 0.056666666666666664
+            },
+            {
+                "championId": "236",
+                "count": 99,
+                "currently": 5,
+                "previously": 6,
+                "rate": 0.055
+            },
+            {
+                "championId": "38",
+                "count": 97,
+                "currently": 6,
+                "previously": 5,
+                "rate": 0.05388888888888889
+            },
+            {
+                "championId": "58",
+                "count": 92,
+                "currently": 7,
+                "previously": 7,
+                "rate": 0.051111111111111114
+            },
+            {
+                "championId": "126",
+                "count": 75,
+                "currently": 8,
+                "previously": 8,
+                "rate": 0.041666666666666664
+            },
+            {
+                "championId": "84",
+                "count": 63,
+                "currently": 9,
+                "previously": 9,
+                "rate": 0.035
+            },
+            {
+                "championId": "24",
+                "count": 59,
+                "currently": 10,
+                "previously": 11,
+                "rate": 0.03277777777777778
+            }
+        ]
+    }
+}

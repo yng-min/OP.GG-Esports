@@ -2,7 +2,7 @@
 
 def match_completed(match_info: dict):
     """
-    OP.GG Esports API에서 경기가 종료되었을 때 데이터 처리를 위해 호출되는 함수
+    OP.GG Esports API에서 경기 결과 데이터 처리를 위해 호출되는 함수
 
     - Input:
     {

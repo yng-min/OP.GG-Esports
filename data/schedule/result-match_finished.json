@@ -1,0 +1,1207 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": [
+        {
+            "id": "21185",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "HPS vs IMP",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "432",
+                "name": "Impunity",
+                "acronym": "IMP",
+                "nationality": "SG",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_imp.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "1713",
+                "name": "HELL PIGS",
+                "acronym": "HPS",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_hps.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20719",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "T1 vs DRX",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "590",
+                "name": "DRX",
+                "acronym": "DRX",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/590_1673590820109.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "385",
+                "name": "T1",
+                "acronym": "T1",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/385_1672191948431.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21186",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "SWP vs BYG",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "433",
+                "name": "Beyond Gaming",
+                "acronym": "BYG",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/433_1672192431008.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "1712",
+                "name": "SEM9 WPE",
+                "acronym": "SWP",
+                "nationality": "MY",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/sem9.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21322",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "FL vs SGB",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "471",
+                "name": "Saigon Buffalo",
+                "acronym": "SGB",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/471_1672191957722.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "338",
+                "name": "Team Flash",
+                "acronym": "FL",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/338_1672191959260.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20882",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "EDG vs LGD",
+            "numberOfGames": 3,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "585",
+                "name": "LGD Gaming",
+                "acronym": "LGD",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_lgd.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "374",
+                "name": "EDward Gaming",
+                "acronym": "EDG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/374_1672191295744.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21187",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "FNK vs CFO",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "708",
+                "name": "CTBC Flying Oyster",
+                "acronym": "CFO",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_cfo.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "704",
+                "name": "Frank Esports",
+                "acronym": "FNK",
+                "nationality": "HK",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_fnk.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21188",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "DEWI vs JT",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "377",
+                "name": "J Team",
+                "acronym": "JT",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_jt.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "711",
+                "name": "Dewish Team",
+                "acronym": "DEWI",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/711_1672192846837.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20721",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "LSB vs GEN",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "416",
+                "name": "Gen.G",
+                "acronym": "GEN",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/416_1672191707257.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "662",
+                "name": "Liiv SANDBOX",
+                "acronym": "LSB",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/662_1672191844822.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21017",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "MS7 vs AZE",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "441",
+                "name": "Team Aze",
+                "acronym": "AZE",
+                "nationality": "MX",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/441_1672192513830.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "1684",
+                "name": "Movistar R7",
+                "acronym": "MS7",
+                "nationality": "MX",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1684.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21000",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "6K vs EST",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "440",
+                "name": "Estral Esports",
+                "acronym": "EST",
+                "nationality": "MX",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/440_1672192378755.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "1495",
+                "name": "Six Karma",
+                "acronym": "6K",
+                "nationality": "MX",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_6k.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20730",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "KT vs HLE",
+            "numberOfGames": 3,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "591",
+                "name": "Hanwha Life Esports",
+                "acronym": "HLE",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/591_1672191709194.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "384",
+                "name": "KT Rolster",
+                "acronym": "KT",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/384_1672190868791.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20884",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "UP vs WE",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "379",
+                "name": "Team WE",
+                "acronym": "WE",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/379_1672191620633.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "646",
+                "name": "Ultra Prime",
+                "acronym": "UP",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/646_1672192482929.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20885",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "OMG vs AL",
+            "numberOfGames": 3,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "698",
+                "name": "Anyone\"s Legend",
+                "acronym": "AL",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/698_1672192551568.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "581",
+                "name": "Oh My God",
+                "acronym": "OMG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_omg.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20738",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "NS vs KDF",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "700",
+                "name": "Kwangdong Freecs",
+                "acronym": "KDF",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_kdf.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "669",
+                "name": "Nongshim Red Force",
+                "acronym": "NS",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/669_1672192303797.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21003",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "TK vs INF",
+            "numberOfGames": 3,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "329",
+                "name": "Infinity Esports",
+                "acronym": "INF",
+                "nationality": "CR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_inf.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "1490",
+                "name": "The Kings",
+                "acronym": "TK",
+                "nationality": "MX",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1490_1672192738941.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21001",
+            "tournamentId": "1021",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LLA"
+                    }
+                }
+            },
+            "name": "ISG vs AK",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "327",
+                "name": "All Knights",
+                "acronym": "AK",
+                "nationality": "CL",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_ak.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "326",
+                "name": "Isurus",
+                "acronym": "ISG",
+                "nationality": "AR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/326_1672190957247.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20886",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "TES vs LNG",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "592",
+                "name": "LNG Esports",
+                "acronym": "LNG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/592_1672191944739.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "415",
+                "name": "Top Esports",
+                "acronym": "TES",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/415_1672191946620.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20887",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "EDG vs WB",
+            "numberOfGames": 3,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "699",
+                "name": "Weibo Gaming",
+                "acronym": "WB",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/699_1672192553420.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "374",
+                "name": "EDward Gaming",
+                "acronym": "EDG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/374_1672191295744.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20888",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "RNG vs BLG",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "632",
+                "name": "Bilibili Gaming",
+                "acronym": "BLG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/632_1672191537262.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "378",
+                "name": "Royal Never Give Up",
+                "acronym": "RNG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/378_1672190883831.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20889",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "TT vs RA",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "644",
+                "name": "Rare Atom",
+                "acronym": "RA",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/644_1672192315224.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "645",
+                "name": "ThunderTalk Gaming",
+                "acronym": "TT",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/645_1672192309667.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20618",
+            "tournamentId": "1015",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "CBLOL"
+                    }
+                }
+            },
+            "name": "FX vs PNG",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "358",
+                "name": "paiN Gaming",
+                "acronym": "PNG",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/358_1672190912387.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "1630",
+                "name": "Fluxo",
+                "acronym": "FX",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1630_1672192994801.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20622",
+            "tournamentId": "1015",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "CBLOL"
+                    }
+                }
+            },
+            "name": "LBR vs VKS",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "1632",
+                "name": "Vivo Keyd Stars",
+                "acronym": "VKS",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1632_1672192998748.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "702",
+                "name": "Liberty",
+                "acronym": "LBR",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/702_1672192621328.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21075",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "DP vs IW",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "355",
+                "name": "Istanbul Wildcats",
+                "acronym": "IW",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/355_1672191950683.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "352",
+                "name": "Dark Passage",
+                "acronym": "DP",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/352_1672190813124.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20625",
+            "tournamentId": "1015",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "CBLOL"
+                    }
+                }
+            },
+            "name": "LOS vs ITZ",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "357",
+                "name": "INTZ e-Sports",
+                "acronym": "ITZ",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/357_1672190980261.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "1631",
+                "name": "Los Grandes",
+                "acronym": "LOS",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_los.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21074",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "FUT vs 5R",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "539",
+                "name": "5 Ronin",
+                "acronym": "5R",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/539_1672192042242.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "1640",
+                "name": "FUT Esports",
+                "acronym": "FUT",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1640_1672193013014.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20628",
+            "tournamentId": "1015",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "CBLOL"
+                    }
+                }
+            },
+            "name": "LLL vs RED",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "362",
+                "name": "RED Canids",
+                "acronym": "RED",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/362_1672190986855.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "567",
+                "name": "LOUD",
+                "acronym": "LLL",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/567_1672192324703.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21079",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "GAL vs NSR",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "540",
+                "name": "NASR eSports Turkey",
+                "acronym": "NSR",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/540_1672192384381.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "527",
+                "name": "Galakticos",
+                "acronym": "GAL",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/527_1672191174944.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20629",
+            "tournamentId": "1015",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "CBLOL"
+                    }
+                }
+            },
+            "name": "FUR vs KBM",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "360",
+                "name": "KaBuM! eSports",
+                "acronym": "KBM",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/360_1672190819645.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "563",
+                "name": "FURIA Esports",
+                "acronym": "FUR",
+                "nationality": "BR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/563_1672192046337.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21081",
+            "tournamentId": "1013",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "TCL"
+                    }
+                }
+            },
+            "name": "BJK vs SUP",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "1680",
+                "name": "Papara SuperMassive",
+                "acronym": "SUP",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/1680_1672192040400.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "353",
+                "name": "Beşiktaş Esports",
+                "acronym": "BJK",
+                "nationality": "TR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/353_1672191397545.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21321",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "SGB vs SE",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "478",
+                "name": "SBTC Esports",
+                "acronym": "SE",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/478_1672192320998.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "471",
+                "name": "Saigon Buffalo",
+                "acronym": "SGB",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/471_1672191957722.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21189",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "DEWI vs PSG",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "324",
+                "name": "PSG Talon",
+                "acronym": "PSG",
+                "nationality": "HK",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/324_1672192061777.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "711",
+                "name": "Dewish Team",
+                "acronym": "DEWI",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/711_1672192846837.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21190",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "HPS vs BYG",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "433",
+                "name": "Beyond Gaming",
+                "acronym": "BYG",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/433_1672192431008.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "1713",
+                "name": "HELL PIGS",
+                "acronym": "HPS",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_hps.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20891",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "NIP vs FPX",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "372",
+                "name": "FunPlus Phoenix",
+                "acronym": "FPX",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/372_1672191541633.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "858",
+                "name": "Ninjas in Pyjamas",
+                "acronym": "NIP",
+                "nationality": "SE",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_nip.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21158",
+            "tournamentId": "1039",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LJL"
+                    }
+                }
+            },
+            "name": "DFM vs CGA",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "515",
+                "name": "Crest Gaming Act",
+                "acronym": "CGA",
+                "nationality": "JP",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_cga.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "348",
+                "name": "DetonatioN FocusMe",
+                "acronym": "DFM",
+                "nationality": "JP",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/348_1672190906049.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21191",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "JT vs IMP",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "432",
+                "name": "Impunity",
+                "acronym": "IMP",
+                "nationality": "SG",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_imp.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "377",
+                "name": "J Team",
+                "acronym": "JT",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_jt.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20890",
+            "tournamentId": "1019",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LPL"
+                    }
+                }
+            },
+            "name": "JDG vs OMG",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "581",
+                "name": "Oh My God",
+                "acronym": "OMG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_omg.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "380",
+                "name": "JD Gaming",
+                "acronym": "JDG",
+                "nationality": "CN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_jdg.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21318",
+            "tournamentId": "1044",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "VCS"
+                    }
+                }
+            },
+            "name": "MGN vs CES",
+            "numberOfGames": 3,
+            "awayScore": 2,
+            "awayTeam": {
+                "id": "470",
+                "name": "CERBERUS Esports",
+                "acronym": "CES",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/470_1672191860872.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "1556",
+                "name": "MGN Box Esports",
+                "acronym": "MGN",
+                "nationality": "VN",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_mgn.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21192",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "DCG vs CFO",
+            "numberOfGames": 1,
+            "awayScore": 1,
+            "awayTeam": {
+                "id": "708",
+                "name": "CTBC Flying Oyster",
+                "acronym": "CFO",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_cfo.png"
+            },
+            "homeScore": 0,
+            "homeTeam": {
+                "id": "707",
+                "name": "Deep Cross Gaming",
+                "acronym": "DCG",
+                "nationality": "TW",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/707_1672192680836.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "20740",
+            "tournamentId": "1018",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "LCK"
+                    }
+                }
+            },
+            "name": "GEN vs BRO",
+            "numberOfGames": 3,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "670",
+                "name": "BRION",
+                "acronym": "BRO",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/670_1673590820109.png"
+            },
+            "homeScore": 2,
+            "homeTeam": {
+                "id": "416",
+                "name": "Gen.G",
+                "acronym": "GEN",
+                "nationality": "KR",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/416_1672191707257.png"
+            },
+            "status": "finished"
+        },
+        {
+            "id": "21193",
+            "tournamentId": "1040",
+            "tournament": {
+                "serie": {
+                    "league": {
+                        "shortName": "PCS"
+                    }
+                }
+            },
+            "name": "FNK vs SWP",
+            "numberOfGames": 1,
+            "awayScore": 0,
+            "awayTeam": {
+                "id": "1712",
+                "name": "SEM9 WPE",
+                "acronym": "SWP",
+                "nationality": "MY",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/sem9.png"
+            },
+            "homeScore": 1,
+            "homeTeam": {
+                "id": "704",
+                "name": "Frank Esports",
+                "acronym": "FNK",
+                "nationality": "HK",
+                "imageUrl": "https://s-qwer.op.gg/images/lol/teams/2023sp_fnk.png"
+            },
+            "status": "finished"
+        }
+    ]
+}

@@ -3,11 +3,37 @@
     "code": "SUCCESS",
     "message": "성공적으로 데이터를 불러왔습니다.",
     "data": {
-        "team_1": "6K",
-        "team_2": "EST",
-        "match_id": "21000",
-        "match_type": "not_started",
-        "match_title": "6K vs EST (LLA)",
-        "match_league": "LLA"
+        "teamStats": [
+            {
+                "team": {
+                    "id": "385",
+                    "acronym": "T1"
+                },
+                "kills": 16.6,
+                "deaths": 8,
+                "assists": 32.6,
+                "winRate": 1,
+                "firstTower": 0.9,
+                "firstBaron": 0.9,
+                "firstBlood": 0.4,
+                "firstDragon": 0.7,
+                "goldEarned": 57598.8
+            },
+            {
+                "team": {
+                    "id": "591",
+                    "acronym": "HLE"
+                },
+                "kills": 9.3,
+                "deaths": 8.3,
+                "assists": 19.9,
+                "winRate": 0.6,
+                "firstTower": 0.4,
+                "firstBaron": 0.4,
+                "firstBlood": 0.6,
+                "firstDragon": 0.4,
+                "goldEarned": 54167.3
+            }
+        ]
     }
 }

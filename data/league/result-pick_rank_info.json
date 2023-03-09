@@ -1,0 +1,89 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "picks": [
+            {
+                "championId": "113",
+                "position": "jun",
+                "count": 97,
+                "currently": 1,
+                "previously": 1,
+                "rate": 0.05446378439079169
+            },
+            {
+                "championId": "221",
+                "position": "adc",
+                "count": 89,
+                "currently": 2,
+                "previously": 2,
+                "rate": 0.04997192588433464
+            },
+            {
+                "championId": "62",
+                "position": "jun",
+                "count": 78,
+                "currently": 3,
+                "previously": 3,
+                "rate": 0.043795620437956206
+            },
+            {
+                "championId": "110",
+                "position": "adc",
+                "count": 72,
+                "currently": 4,
+                "previously": 4,
+                "rate": 0.04042672655811342
+            },
+            {
+                "championId": "268",
+                "position": "mid",
+                "count": 68,
+                "currently": 5,
+                "previously": 5,
+                "rate": 0.0381807973048849
+            },
+            {
+                "championId": "254",
+                "position": "jun",
+                "count": 65,
+                "currently": 6,
+                "previously": 6,
+                "rate": 0.0364963503649635
+            },
+            {
+                "championId": "117",
+                "position": "sup",
+                "count": 65,
+                "currently": 6,
+                "previously": 9,
+                "rate": 0.0364963503649635
+            },
+            {
+                "championId": "897",
+                "position": "top",
+                "count": 63,
+                "currently": 8,
+                "previously": 8,
+                "rate": 0.03537338573834924
+            },
+            {
+                "championId": "150",
+                "position": "top",
+                "count": 63,
+                "currently": 8,
+                "previously": 7,
+                "rate": 0.03537338573834924
+            },
+            {
+                "championId": "236",
+                "position": "adc",
+                "count": 58,
+                "currently": 10,
+                "previously": 10,
+                "rate": 0.03256597417181359
+            }
+        ]
+    }
+}

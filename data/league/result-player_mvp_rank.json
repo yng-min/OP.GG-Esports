@@ -1,0 +1,239 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "mvps": [
+            {
+                "player": {
+                    "id": "1939",
+                    "nickName": "Keria",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1939_1672127190351.png"
+                },
+                "team": {
+                    "id": "385",
+                    "name": "T1",
+                    "acronym": "T1",
+                    "nationality": "KR"
+                },
+                "position": "sup",
+                "currently": 1,
+                "previously": 1,
+                "mvpPoint": 1000,
+                "games": 34,
+                "kda": 6.357142857142857,
+                "kills": 1.352941176470588,
+                "deaths": 1.647058823529412,
+                "assists": 9.117647058823529
+            },
+            {
+                "player": {
+                    "id": "1959",
+                    "nickName": "Oner",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1959_1672132555327.png"
+                },
+                "team": {
+                    "id": "385",
+                    "name": "T1",
+                    "acronym": "T1",
+                    "nationality": "KR"
+                },
+                "position": "jun",
+                "currently": 2,
+                "previously": 2,
+                "mvpPoint": 900,
+                "games": 34,
+                "kda": 4.391891891891892,
+                "kills": 2.588235294117647,
+                "deaths": 2.176470588235294,
+                "assists": 6.970588235294118
+            },
+            {
+                "player": {
+                    "id": "1921",
+                    "nickName": "Viper",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1921_1672127179321.png"
+                },
+                "team": {
+                    "id": "591",
+                    "name": "Hanwha Life Esports",
+                    "acronym": "HLE",
+                    "nationality": "KR"
+                },
+                "position": "adc",
+                "currently": 3,
+                "previously": 3,
+                "mvpPoint": 800,
+                "games": 37,
+                "kda": 4.88235294117647,
+                "kills": 2.945945945945946,
+                "deaths": 1.3783783783783785,
+                "assists": 3.7837837837837838
+            },
+            {
+                "player": {
+                    "id": "2506",
+                    "nickName": "Clozer",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/2506_1672131800107.png"
+                },
+                "team": {
+                    "id": "662",
+                    "name": "Liiv SANDBOX",
+                    "acronym": "LSB",
+                    "nationality": "KR"
+                },
+                "position": "mid",
+                "currently": 4,
+                "previously": 3,
+                "mvpPoint": 700,
+                "games": 38,
+                "kda": 2.357142857142857,
+                "kills": 2.263157894736842,
+                "deaths": 2.5789473684210527,
+                "assists": 3.8157894736842106
+            },
+            {
+                "player": {
+                    "id": "1922",
+                    "nickName": "Chovy",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1922_1672128155996.png"
+                },
+                "team": {
+                    "id": "416",
+                    "name": "Gen.G",
+                    "acronym": "GEN",
+                    "nationality": "KR"
+                },
+                "position": "mid",
+                "currently": 4,
+                "previously": 5,
+                "mvpPoint": 700,
+                "games": 35,
+                "kda": 5.533333333333334,
+                "kills": 3.6,
+                "deaths": 1.7142857142857142,
+                "assists": 5.885714285714286
+            },
+            {
+                "player": {
+                    "id": "1879",
+                    "nickName": "Bdd",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1879_1672124926384.png"
+                },
+                "team": {
+                    "id": "384",
+                    "name": "KT Rolster",
+                    "acronym": "KT",
+                    "nationality": "KR"
+                },
+                "position": "mid",
+                "currently": 6,
+                "previously": 5,
+                "mvpPoint": 600,
+                "games": 37,
+                "kda": 4.5,
+                "kills": 3.054054054054054,
+                "deaths": 1.5675675675675675,
+                "assists": 4
+            },
+            {
+                "player": {
+                    "id": "1915",
+                    "nickName": "ShowMaker",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1915_1672127187672.png"
+                },
+                "team": {
+                    "id": "1681",
+                    "name": "Dplus KIA",
+                    "acronym": "DK",
+                    "nationality": "KR"
+                },
+                "position": "mid",
+                "currently": 6,
+                "previously": 5,
+                "mvpPoint": 600,
+                "games": 31,
+                "kda": 5.5227272727272725,
+                "kills": 2.870967741935484,
+                "deaths": 1.4193548387096775,
+                "assists": 4.967741935483871
+            },
+            {
+                "player": {
+                    "id": "1865",
+                    "nickName": "Peanut",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1865_1672123915565.png"
+                },
+                "team": {
+                    "id": "416",
+                    "name": "Gen.G",
+                    "acronym": "GEN",
+                    "nationality": "KR"
+                },
+                "position": "jun",
+                "currently": 6,
+                "previously": 9,
+                "mvpPoint": 600,
+                "games": 35,
+                "kda": 3.6263736263736264,
+                "kills": 2.4285714285714284,
+                "deaths": 2.6,
+                "assists": 7
+            },
+            {
+                "player": {
+                    "id": "2385",
+                    "nickName": "Aiming",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/2385_1672127183224.png"
+                },
+                "team": {
+                    "id": "384",
+                    "name": "KT Rolster",
+                    "acronym": "KT",
+                    "nationality": "KR"
+                },
+                "position": "adc",
+                "currently": 6,
+                "previously": 14,
+                "mvpPoint": 600,
+                "games": 37,
+                "kda": 5.659574468085106,
+                "kills": 3.5405405405405403,
+                "deaths": 1.2702702702702704,
+                "assists": 3.6486486486486487
+            },
+            {
+                "player": {
+                    "id": "1917",
+                    "nickName": "Canyon",
+                    "nationality": "KR",
+                    "imageUrl": "https://s-qwer.op.gg/images/lol/players/1917_1672129093031.png"
+                },
+                "team": {
+                    "id": "1681",
+                    "name": "Dplus KIA",
+                    "acronym": "DK",
+                    "nationality": "KR"
+                },
+                "position": "jun",
+                "currently": 6,
+                "previously": 5,
+                "mvpPoint": 600,
+                "games": 31,
+                "kda": 5.369565217391305,
+                "kills": 1.8064516129032258,
+                "deaths": 1.4838709677419355,
+                "assists": 6.161290322580645
+            }
+        ]
+    }
+}
