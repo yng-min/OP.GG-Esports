@@ -41,7 +41,7 @@ query {
         return { "error": True, "code": "UNKNOWN", "message": f"알 수 없는 에러 발생.\n{error}", "data": None }
 
 
-def pick_rank_info(serieId: str, limit: int, page: int):
+def pick_rank_info(serieId: str, limit: int = 10, page: int = 0):
     """
     OP.GG Esports의 픽 순위 데이터 처리를 위해 호출되는 함수
     """
