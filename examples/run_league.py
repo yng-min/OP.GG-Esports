@@ -1,23 +1,21 @@
-from code_league.league_standing import *
-from code_league.player_info_by_team import *
-from code_league.player_info import *
-from code_league.player_mvp_rank import *
+import opgg
 
-print(league_standing(tournamentId="1018"))
+
+print(opgg.league_standing(tournamentId="1018"))
 print()
 
-print(player_info_by_team(tournamentId="1018", teamId="385"))
+print(opgg.player_info_by_team(tournamentId="1018", teamId="385"))
 print()
 
-print(player_info(playerId=['1836', '1939', '1957', '1959', '2518']))
+print(opgg.player_info(playerId=['1836', '1939', '1957', '1959', '2518']))
 print()
 
-print(player_mvp_rank(tournamentId="1018", limit=10, page=0))
+print(opgg.player_mvp_rank(tournamentId="1018", limit=10, page=0))
 print()
 
 
 # for i in range(5):
-#     data = player_info_by_team(tournamentId="1018", teamId="385") # LCK, T1
+#     data = opgg.player_info_by_team(tournamentId="1018", teamId="385") # LCK, T1
 #     player_nickName = data['data'][i]['player']['nickName']
 #     player_position = data['data'][i]['player']['position']
 #     player_games = data['data'][i]['playerStat']['games']
