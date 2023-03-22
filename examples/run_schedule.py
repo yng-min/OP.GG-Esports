@@ -1,5 +1,9 @@
 import opgg
 
+
+print(opgg.load_schedule())
+print()
+
 print(opgg.save_schedule(league_id="99", page=0))
 print()
 

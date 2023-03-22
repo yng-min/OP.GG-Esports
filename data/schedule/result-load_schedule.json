@@ -1,0 +1,82 @@
+{
+  "error": false,
+  "code": "SUCCESS",
+  "message": "성공적으로 데이터를 불러왔습니다.",
+  "data": [
+    {
+      "id": "20511",
+      "tournamentId": "1016",
+      "tournament": {
+        "serie": {
+          "league": {
+            "shortName": "LCK"
+          }
+        }
+      },
+      "name": "Round 1 Match 1: KT vs LSB",
+      "originalScheduledAt": "2023-03-22T08: 00: 00.000Z",
+      "scheduledAt": "2023-03-22T08: 00: 00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "20858",
+      "tournamentId": "1019",
+      "tournament": {
+        "serie": {
+          "league": {
+            "shortName": "LPL"
+          }
+        }
+      },
+      "name": "LNG vs UP",
+      "originalScheduledAt": "2023-03-22T09: 00: 00.000Z",
+      "scheduledAt": "2023-03-22T09: 00: 00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "20851",
+      "tournamentId": "1019",
+      "tournament": {
+        "serie": {
+          "league": {
+            "shortName": "LPL"
+          }
+        }
+      },
+      "name": "IG vs BLG",
+      "originalScheduledAt": "2023-03-22T11: 00: 00.000Z",
+      "scheduledAt": "2023-03-22T11: 00: 00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "21408",
+      "tournamentId": "1050",
+      "tournament": {
+        "serie": {
+          "league": {
+            "shortName": "TCL"
+          }
+        }
+      },
+      "name": "Round 1 match 1: DP vs BJK",
+      "originalScheduledAt": "2023-03-22T17: 30: 00.000Z",
+      "scheduledAt": "2023-03-22T17: 30: 00.000Z",
+      "status": "not_started"
+    },
+    {
+      "id": "21379",
+      "tournamentId": "1047",
+      "tournament": {
+        "serie": {
+          "league": {
+            "shortName": "LLA"
+          }
+        }
+      },
+      "name": "Round 2: ISG vs INF",
+      "originalScheduledAt": "2023-03-22T22: 00: 00.000Z",
+      "scheduledAt": "2023-03-22T22: 00: 00.000Z",
+      "status": "not_started"
+    }
+  ]
+}
