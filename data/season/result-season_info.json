@@ -1,0 +1,23 @@
+{
+    "error": false,
+    "code": "SUCCESS",
+    "message": "성공적으로 데이터를 불러왔습니다.",
+    "data": {
+        "total": 1313,
+        "baseStats": {
+            "assists": 75493,
+            "averageLength": 1927.490450725745,
+            "baronKills": 1910,
+            "deaths": 32595,
+            "dragonKills": 5843,
+            "elderDragonKills": 111,
+            "heraldKills": 2588,
+            "kills": 32516,
+            "length": 2523085,
+            "maxLength": 3280,
+            "minLength": 1080,
+            "pentaKills": 15,
+            "towerKills": 15623
+        }
+    }
+}
