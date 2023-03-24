@@ -1,6 +1,9 @@
 import opgg
 
 
+print(opgg.season_info())
+print()
+
 print(opgg.ban_rank_info(serieId="511", limit=10, page=0))
 print()
 
