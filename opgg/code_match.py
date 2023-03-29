@@ -89,6 +89,89 @@ def match_completed(match_info: dict):
         return { "error": True, "code": "UNKNOWN", "message": f"알 수 없는 에러가 발생했습니다.\n{error}", "data": None }
 
 
+def match_info_by_id(match_id: str):
+    """
+    OP.GG Esports에서 MatchID를 통한 경기 정보 데이터 처리를 위해 호출되는 함수
+    """
+    try:
+        query = """
+query {
+    matchesByIds(ids: %s) {
+        id
+        name
+        originalScheduledAt
+        scheduledAt
+        beginAt
+        endAt
+        status
+        numberOfGames
+        liveSupported
+        liveOpensAt
+        streams{isMain}
+        streams{isOfficial}
+        streams{rawUrl}
+        homeTeam{id}
+        homeTeam{name}
+        homeTeam{acronym}
+        homeTeam{nationality}
+        homeTeam{foundedAt}
+        homeTeam{imageUrl}
+        homeTeam{youtube}
+        homeTeam{twitter}
+        homeTeam{instagram}
+        homeTeam{facebook}
+        homeTeam{discord}
+        homeTeam{website}
+        awayTeam{id}
+        awayTeam{name}
+        awayTeam{acronym}
+        awayTeam{nationality}
+        awayTeam{foundedAt}
+        awayTeam{imageUrl}
+        awayTeam{youtube}
+        awayTeam{twitter}
+        awayTeam{instagram}
+        awayTeam{facebook}
+        awayTeam{discord}
+        awayTeam{website}
+        ranks{homeTeamRank{position}}
+        ranks{homeTeamRank{previously}}
+        ranks{homeTeamRank{point}}
+        ranks{homeTeamRank{setWin}}
+        ranks{homeTeamRank{setLose}}
+        ranks{awayTeamRank{win}}
+        ranks{awayTeamRank{lose}}
+        ranks{awayTeamRank{position}}
+        ranks{awayTeamRank{previously}}
+        ranks{awayTeamRank{point}}
+        ranks{awayTeamRank{setWin}}
+        ranks{awayTeamRank{setLose}}
+        ranks{homeTeamRank{win}}
+        ranks{homeTeamRank{lose}}
+    }
+}
+""" % (match_id)
+        headers = {
+            "Content-Type": "application/json",
+        }
+
+        result = requests.post(url, json={"query": query}, headers=headers)
+
+        if 200 <= result.status_code < 300:
+            match_info = result.json()['data']['matchesByIds']
+
+            if match_info == []:
+                return { "error": False, "code": "SUCCESS", "message": "경기 데이터가 없습니다.", "data": None }
+
+            return { "error": False, "code": "SUCCESS", "message": "성공적으로 데이터를 불러왔습니다.", "data": match_info }
+
+        else:
+            return { "error": True, "code": "NOTSENT", "message": f"서버와의 통신 과정 중 오류가 발생했습니다.\nStatus Code: {result.status_code}\nResponse: {result}", "data": None }
+
+    except Exception as error:
+        return { "error": True, "code": "UNKNOWN", "message": f"알 수 없는 에러가 발생했습니다.\n{error}", "data": None }
+
+
 def match_finished(league_id: str = "null", page: int = 0):
     """
     OP.GG Esports의 경기 종료 데이터 처리를 위해 호출되는 함수
