@@ -14,6 +14,9 @@ query {
     standings(tournamentId: "%s") {
         position
         previously
+        point
+        win
+        lose
         setWin
         setLose
         team{id}
@@ -26,6 +29,7 @@ query {
         team{twitter}
         team{instagram}
         team{facebook}
+        team{discord}
         team{website}
         recentMatches{id}
         recentMatches{tournamentId}
@@ -75,6 +79,10 @@ query {
         player{instagram}
         player{facebook}
         player{discord}
+        playerStat{team{id}}
+        playerStat{team{name}}
+        playerStat{team{acronym}}
+        playerStat{team{imageUrl}}
         playerStat{games}
         playerStat{winRate}
         playerStat{wins}
@@ -141,6 +149,10 @@ query {
         instagram
         facebook
         discord
+        currentTeam{id}
+        currentTeam{name}
+        currentTeam{acronym}
+        currentTeam{imageUrl}
     }
 }
 """ % (playerIds)
@@ -190,6 +202,7 @@ query {
         mvps{kills}
         mvps{deaths}
         mvps{assists}
+        mvps{tournamentId}
     }
 }
 """ % (tournamentId, limit, page)
