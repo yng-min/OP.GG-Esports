@@ -17,7 +17,13 @@ query {
     upcomingMatchesByDate(date: "%s") {
         id
         tournamentId
-        tournament{serie{league{shortName}}}
+        tournament{
+            serie{
+                league{
+                    shortName
+                }
+            }
+        }
         name
         originalScheduledAt
         scheduledAt
@@ -29,7 +35,7 @@ query {
             "Content-Type": "application/json",
         }
 
-        result = requests.post(url, json={"query": query}, headers=headers)
+        result = requests.post(url=url, json={"query": query}, headers=headers)
 
         if 200 <= result.status_code < 300:
             matches = result.json()['data']['upcomingMatchesByDate']
@@ -58,7 +64,13 @@ query {
     pagedAllMatches(status: "not_started", leagueId: %s, year: %s, month: %s, page: %d) {
         id
         tournamentId
-        tournament{serie{league{shortName}}}
+        tournament{
+            serie{
+                league{
+                    shortName
+                }
+            }
+        }
         name
         originalScheduledAt
         scheduledAt
@@ -70,7 +82,7 @@ query {
             "Content-Type": "application/json",
         }
 
-        result = requests.post(url, json={"query": query}, headers=headers)
+        result = requests.post(url=url, json={"query": query}, headers=headers)
 
         if 200 <= result.status_code < 300:
             matches = result.json()['data']['pagedAllMatches']
